@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qiwei Yao on Boldness be my friend.</title>
+    <link>/authors/qiwei-yao/</link>
+    <description>Recent content in Qiwei Yao on Boldness be my friend.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Elynn Chen </copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/qiwei-yao/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modeling Multivariate Spatial-Temporal Data with Latent Low-Dimensional Dynamics</title>
+      <link>/publication/chen-2017-multivariate/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chen-2017-multivariate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

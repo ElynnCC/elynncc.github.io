@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Elynn Chen">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Starting with the linear classifier Model Linear classifier computes scores $s = W x$ for $k$ different visual categories given the image, where $W$ was a matrix and $x$ was an input column vector containing all pixel data of the image. In the case of CIFAR-10, $x$ is a [3072x1] column vector, and $W$ is a [10x3072] matrix, so that the output scores is a vector of 10 class scores.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/2019-02-11-linear-classifier/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.aade7398014812d36893c4d19ed55bfc.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/2019-02-11-linear-classifier/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Boldness be my friend.">
+  <meta property="og:url" content="/post/2019-02-11-linear-classifier/">
+  <meta property="og:title" content="Linear Classifier | Boldness be my friend.">
+  <meta property="og:description" content="Starting with the linear classifier Model Linear classifier computes scores $s = W x$ for $k$ different visual categories given the image, where $W$ was a matrix and $x$ was an input column vector containing all pixel data of the image. In the case of CIFAR-10, $x$ is a [3072x1] column vector, and $W$ is a [10x3072] matrix, so that the output scores is a vector of 10 class scores."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-02-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-02-11T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Linear Classifier | Boldness be my friend.</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Boldness be my friend.</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication/">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Linear Classifier</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-02-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-02-11 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Elynn Chen</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Feb 11, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="/categories/concepts/">concepts</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url="
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u="
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://twitter.com/Twitter"
+  target="_blank" rel="noopener">
+  <i class="far fa-file-pdf mr-1"></i>
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://twitter.com/Twitter"
+  target="_blank" rel="noopener">
+  <i class="fab fa-github mr-1"></i>
+  Code
+</a>
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <h1 id="starting-with-the-linear-classifier">Starting with the linear classifier</h1>
+<h2 id="model">Model</h2>
+<p><a href="http://cs231n.github.io/linear-classify/">Linear classifier</a> computes <strong>scores</strong> $s = W x$ for $k$ different visual categories given the image, where $W$ was a matrix and $x$ was an input column vector containing all pixel data of the image. In the case of CIFAR-10, $x$ is a [3072x1] column vector, and $W$ is a [10x3072] matrix, so that the output scores is a vector of 10 class scores.</p>
+<p><strong>Mathmetical formulation.</strong>  Given labeled data set ${\bx_i, y_i}_{1 \le i \le n}$ where $\bx_i \in \mathbb{R}^p$ being the $p$-dimensional feature of sample $i$ and $y_i \in {1, \cdots, K}$ being the ground-truth label. We wish to learn a classifier that labels an new observation $\bx \in \mathbb{R}^p$ with label $y$.</p>
+<p>A linear classifier computes a $K$ dimensional score vector $ \bs = \bW \bx $. Each entry $s_k = \bW_{k, \cdot}^\top \bx$, $1 \le k \le K$ is a score for the $k$-th class. Every row of $\bW$ is a classifier for one of the classes. In statistics, logistic regression can be used to build a 2-class classifier, which corresponds to one row of $\bW$.</p>
+<p>The predicted label $y = \underset{\arg \max}{k} s_k$.</p>
+<p><strong>Bias trick.</strong> The genral score function is defined as</p>
+<p>$$
+f(\bx_i, \bW, \bb) =  \bW \bx_i + \bb.
+$$</p>
+<p>However, it is a little cumbersome to keep track of two sets of parameters (the biases (intercept) $\bb$ and weights (slope) $\bW$) separately. A commonly used trick is to combine the two sets of parameters into a single matrix that holds both of them by extending the vector $\bx_i$ with one additional dimension that always holds the constant 1 - a default <em>bias dimension</em>. With the extra dimension, the new score function will simplify to a single matrix multiply:</p>
+<p>$$
+f(\bx_i, W) =  \bW \bx_i.
+$$</p>
+<p><strong>Data preprocessing.</strong> In Machine Learning, it is a very common practice to always perform normalization of your input features (in the case of images, every pixel is thought of as a feature). In particular, it is important to <strong>center your data</strong> by subtracting the mean from every feature. Further common preprocessing is to <strong>scale</strong> each input feature so that its values range from [-1, 1]. Of these, <em>zero mean centering</em> is arguably more important but we will have to wait for its justification until we understand the dynamics of gradient descent.</p>
+<h2 id="estimation">Estimation</h2>
+<p>Building a classifier boils down to estimate parameter $\bW$ based on observed samples ${\bx_i, y_i}_{1 \le i \le n}$. A common method in machine learning is to minimize some <strong>loss function</strong> of the descrepency between the predicted label $\hat{y}_i$ and the ground truth $y_i$. The loss function quantifies our unhappiness with predictions on the training set.</p>
+<p>Diffirent definitions of the loss function lead to different classification methods. In the following, we will consider two commonly seen classifiers &ndash; the SVM and Softmax classifier.</p>
+<h3 id="multiclass-support-vector-machine-loss">Multiclass Support Vector Machine loss</h3>
+<p>A commonly used loss is called the <strong>Multiclass Support Vector Machine</strong> (SVM) loss. The Multiclass SVM loss for the i-th sample is formalized as follows:</p>
+<p>$$
+L_i = \sum_{j\neq y_i} \max(0, s_j - s_{y_i} + \Delta)
+$$</p>
+<p><strong>Remark.</strong></p>
+<ul>
+<li>
+<p>Note that
+$$
+\max(0, s_j - s_{y_i} + \Delta) = \begin{pmatrix} 0, if s_{y_i} \ge s_j + \Delta,  \ positive, if s_{y_i} &lt; s_j + \Delta \end{pmatrix}.
+$$</p>
+<p>$L-i$ achieves its minimal value 0 when the classifier gives the correct label, that is, when $s_{y_i} \ge s_j + \Delta$ for any $j \ne y_i$.</p>
+</li>
+<li>
+<p>The threshold at zero $max(0,-)$ function is often called the <strong>hinge loss</strong>. The squared hinge loss SVM (or L2-SVM) uses the form $(max(0,-)^2$ that penalizes violated margins more strongly (quadratically instead of linearly). The unsquared version is more standard, but in some datasets the squared hinge loss can work better. This can be determined during cross-validation.</p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<p><strong>Regularization.</strong> Note that the $\hat{\bW}$ minimizing $L_i$ is not unique when the classifier with $\hat{\bW}$ correctly classify every example (i.e. all scores are so that all the margins are met, and $L_i = 0$ for all i). Any multiple of these parameters $\lambda W$ where $\lambda &gt; 1$ will also give zero loss because this transformation uniformly stretches all score magnitudes and hence also their absolute differences. We wish to encode some preference for a certain set of weights $\bW$ over others to remove this ambiguity. We can do so by extending the loss function with a <strong>regularization penalty</strong> $R(W)$. The most common regularization penalty is the <strong>L2</strong> norm that discourages large weights through an elementwise quadratic penalty over all parameters:</p>
+<p>$$
+R(\bW) = \norm{\bW}^2_F.
+$$</p>
+<p>Including the regularization penalty completes the full Multiclass Support Vector Machine loss, which is made up of two components: the <strong>data loss</strong> (which is the average loss $L_i$ over all examples) and the <strong>regularization loss</strong>. That is, the full Multiclass SVM loss becomes:</p>
+<p>$$
+L =  \underbrace{ \frac{1}{N} \sum_i L_i }<em>\text{data loss} + \underbrace{ \lambda R(W) }</em>\text{regularization loss},
+$$</p>
+<p>where \(N\) is the number of training examples. Hyperparameter $\lambda$ is usually determined by cross-validation.</p>
+<p><strong>Remark.</strong></p>
+<ul>
+<li>
+<p>In addition to the motivation above there are many desirable properties to include the regularization penalty. For example, it turns out that including the L2 penalty leads to the appealing <strong>max margin</strong> property in SVMs (See <a href="http://cs229.stanford.edu/notes/cs229-notes3.pdf">CS229</a> lecture notes for full details).</p>
+</li>
+<li>
+<p>The most appealing property is that penalizing large weights tends to improve generalization, because it means that no input dimension can have a very large influence on the scores all by itself. Since the L2 penalty prefers smaller and more diffuse weight vectors, the final classifier is encouraged to take into account all input dimensions to small amounts rather than a few input dimensions and very strongly. As we will see later in the class, this effect can improve the generalization performance of the classifiers on test images and lead to less <em>overfitting</em>.</p>
+</li>
+<li>
+<p>The biases do not have the same effect since, unlike the weights, they do not control the strength of influence of an input dimension.</p>
+</li>
+<li>
+<p>Due to the regularization penalty we can never achieve loss of exactly 0.0 on all examples, because this would only be possible in the pathological setting of $\bW = 0$.</p>
+</li>
+<li>
+<p>Making good predictions on the training set is equivalent to minimizing the loss. All we have to do now is to come up with a way to find the weights that minimize the loss.</p>
+</li>
+</ul>
+<p><strong>Later.</strong>
+Leave the code and practical considerations of <a href="http://cs231n.github.io/linear-classify/#svm">SVM</a> to later study.</p>
+<h2 id="softmax-classifier">Softmax classifier</h2>
+<p>The <strong>Softmax classifier</strong> is a generalization of the binary Logistic Regression classifier to multiple classes. Unlike the SVM which treats the outputs $f(x_i,W)$ as (uncalibrated and possibly difficult to interpret) scores for each class, the Softmax classifier gives a slightly more intuitive output (normalized class probabilities) and also has a probabilistic interpretation explained later. In the Softmax classifier, the scores $f(x_i; W) =  W x_i$ are now interpreted as the unnormalized log probabilities for each class, that is $\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }$ is the probability that $y_i$ is the correct label. Thus, for the grounth truth to be choosen, we need to _maximize_ $\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }$. This can be achieved by using the **cross-entropy loss**</p>
+<p>$$
+L_i = -\log\left(\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }\right) \hspace{0.5in} \text{or equivalently} \hspace{0.5in} L_i = -f_{y_i} + \log\sum_j e^{f_j}
+$$</p>
+<p>As before, the full loss for the dataset is the mean of \(L_i\) over all training examples together with a regularization term \(R(W)\). The function \(f_j(z) = \frac{e^{z_j}}{\sum_k e^{z_k}} \) is called the <strong>softmax function</strong>: It takes a vector of arbitrary real-valued scores (in \(z\)) and squashes it to a vector of values between zero and one that sum to one. The full cross-entropy loss that involves the softmax function might look scary if you&rsquo;re seeing it for the first time but it is relatively easy to motivate.</p>
+<p><strong>Information theory view</strong>. The <em>cross-entropy</em> between a &ldquo;true&rdquo; distribution \(p\) and an estimated distribution \(q\) is defined as:</p>
+<p>$$
+H(p,q) = - \sum_x p(x) \log q(x)
+$$</p>
+<p>The Softmax classifier is hence minimizing the cross-entropy between the estimated class probabilities ( \(q = e^{f_{y_i}}  / \sum_j e^{f_j} \) as seen above) and the &ldquo;true&rdquo; distribution, which in this interpretation is the distribution where all probability mass is on the correct class (i.e. \(p = [0, \ldots 1, \ldots, 0]\) contains a single 1 at the \(y_i\) -th position.). Moreover, since the cross-entropy can be written in terms of entropy and the Kullback-Leibler divergence as \(H(p,q) = H(p) + D_{KL}(p||q)\), and the entropy of the delta function \(p\) is zero, this is also equivalent to minimizing the KL divergence between the two distributions (a measure of distance). In other words, the cross-entropy objective *wants* the predicted distribution to have all of its mass on the correct answer.</p>
+<p><strong>Probabilistic interpretation</strong>. Looking at the expression, we see that</p>
+<p>$$
+P(y_i \mid x_i; W) = \frac{e^{f_{y_i}}}{\sum_j e^{f_j} }
+$$</p>
+<p>can be interpreted as the (normalized) probability assigned to the correct label \(y_i\) given the image \(x_i\) and parameterized by \(W\). To see this, remember that the Softmax classifier interprets the scores inside the output vector \(f\) as the unnormalized log probabilities. Exponentiating these quantities therefore gives the (unnormalized) probabilities, and the division performs the normalization so that the probabilities sum to one. In the probabilistic interpretation, we are therefore minimizing the negative log likelihood of the correct class, which can be interpreted as performing <em>Maximum Likelihood Estimation</em> (MLE). A nice feature of this view is that we can now also interpret the regularization term \(R(W)\) in the full loss function as coming from a Gaussian prior over the weight matrix \(W\), where instead of MLE we are performing the <em>Maximum a posteriori</em> (MAP) estimation. We mention these interpretations to help your intuitions, but the full details of this derivation are beyond the scope of this class.</p>
+<p><strong>Practical issues: Numeric stability</strong>. When you&rsquo;re writing code for computing the Softmax function in practice, the intermediate terms \(e^{f_{y_i}}\) and \(\sum_j e^{f_j}\) may be very large due to the exponentials. Dividing large numbers can be numerically unstable, so it is important to use a normalization trick. Notice that if we multiply the top and bottom of the fraction by a constant \(C\) and push it into the sum, we get the following (mathematically equivalent) expression:</p>
+<p>$$
+\frac{e^{f_{y_i}}}{\sum_j e^{f_j}}
+= \frac{Ce^{f_{y_i}}}{C\sum_j e^{f_j}}
+= \frac{e^{f_{y_i} + \log C}}{\sum_j e^{f_j + \log C}}
+$$</p>
+<p>We are free to choose the value of \(C\). This will not change any of the results, but we can use this value to improve the numerical stability of the computation. A common choice for \(C\) is to set \(\log C = -\max_j f_j \). This simply states that we should shift the values inside the vector \(f\) so that the highest value is zero. In code:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">456</span>, <span style="color:#ae81ff">789</span>]) <span style="color:#75715e"># example with 3 classes and each having large scores</span>
+p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp(f) <span style="color:#f92672">/</span> np<span style="color:#f92672">.</span>sum(np<span style="color:#f92672">.</span>exp(f)) <span style="color:#75715e"># Bad: Numeric problem, potential blowup</span>
+
+<span style="color:#75715e"># instead: first shift the values of f so that the highest number is 0:</span>
+f <span style="color:#f92672">-=</span> np<span style="color:#f92672">.</span>max(f) <span style="color:#75715e"># f becomes [-666, -333, 0]</span>
+p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp(f) <span style="color:#f92672">/</span> np<span style="color:#f92672">.</span>sum(np<span style="color:#f92672">.</span>exp(f)) <span style="color:#75715e"># safe to do, gives the correct answer</span>
+
+</code></pre></div><p><strong>Possibly confusing naming conventions</strong>. To be precise, the <em>SVM classifier</em> uses the <em>hinge loss</em>, or also sometimes called the <em>max-margin loss</em>. The <em>Softmax classifier</em> uses the <em>cross-entropy loss</em>. The Softmax classifier gets its name from the <em>softmax function</em>, which is used to squash the raw class scores into normalized positive values that sum to one, so that the cross-entropy loss can be applied. In particular, note that technically it doesn&rsquo;t make sense to talk about the &ldquo;softmax loss&rdquo;, since softmax is just the squashing function, but it is a relatively commonly used shorthand.</p>
+<h2 id="svm-vs-softmax">SVM vs. Softmax</h2>
+<p>See <a href="http://cs231n.github.io/linear-classify/#svmvssoftmax">cs231: SVM vs. Softmax</a>.</p>
+<h1 id="references">References</h1>
+<p>[1] <a href="http://cs231n.github.io/linear-classify/">Linear Classifier</a></p>
+<p>[2] <a href="http://cs229.stanford.edu/">Stanford CS229: Machine Learning Course</a></p>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/supervised-learning/">Supervised Learning</a>
+  
+  <a class="badge badge-light" href="/tags/classification/">Classification</a>
+  
+  <a class="badge badge-light" href="/tags/linear/">Linear</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar-1_hu8cfe14362d2eae8b0288c3667776479c_85918_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/admin/">Elynn Chen</a></h5>
+      <h6 class="card-subtitle">Postdoc Research Fellow</h6>
+      <p class="card-text" itemprop="description">My research interests generally lie in the broad area of statistical learning theory, machine learning and Economics.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/elynncc" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Elynn Chen &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.48a32d9c830bf89cbc5832982887d70d.js"></script>
+
+  </body>
+</html>
+
