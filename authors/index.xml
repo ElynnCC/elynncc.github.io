@@ -7,17 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Elynn Y. Chen</title>
-      <link>/authors/elynn-y.-chen/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Elynn Chen</title>
+      <link>/authors/elynn-chen/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/authors/elynn-y.-chen/</guid>
+      <guid>/authors/elynn-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael I. Jordan</title>
+      <link>/authors/michael-i.-jordan/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/michael-i.-jordan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sai Li*</title>
+      <link>/authors/sai-li/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/sai-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tony T. Cai</title>
+      <link>/authors/tony-t.-cai/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/tony-t.-cai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rui Song</title>
+      <link>/authors/rui-song/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/rui-song/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhiyue T. Hu</title>
+      <link>/authors/zhiyue-t.-hu/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/zhiyue-t.-hu/</guid>
       <description></description>
     </item>
     
@@ -67,15 +112,6 @@
     </item>
     
     <item>
-      <title>Michael I. Jordan</title>
-      <link>/authors/michael-i.-jordan/</link>
-      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/michael-i.-jordan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tianyi Lin</title>
       <link>/authors/tianyi-lin/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
@@ -103,9 +139,18 @@
     </item>
     
     <item>
+      <title>Xialu Liu</title>
+      <link>/authors/xialu-liu/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/xialu-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Qiwei Yao</title>
       <link>/authors/qiwei-yao/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/qiwei-yao/</guid>
       <description></description>
@@ -114,7 +159,7 @@
     <item>
       <title>Rong Chen</title>
       <link>/authors/rong-chen/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/rong-chen/</guid>
       <description></description>
@@ -123,18 +168,9 @@
     <item>
       <title>Xin Yun</title>
       <link>/authors/xin-yun/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/xin-yun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xialu Liu</title>
-      <link>/authors/xialu-liu/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/xialu-liu/</guid>
       <description></description>
     </item>
     
