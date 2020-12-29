@@ -7,51 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ellen Li</title>
+      <link>/authors/ellen-li/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/ellen-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Elynn Chen</title>
       <link>/authors/elynn-chen/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/elynn-chen/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Jianqing Fan</title>
+      <link>/authors/jianqing-fan/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/jianqing-fan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Michael I. Jordan</title>
       <link>/authors/michael-i.-jordan/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/michael-i.-jordan/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sai Li*</title>
-      <link>/authors/sai-li/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/sai-li/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tony T. Cai</title>
-      <link>/authors/tony-t.-cai/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/tony-t.-cai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Rui Song</title>
       <link>/authors/rui-song/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/rui-song/</guid>
       <description></description>
@@ -60,34 +60,52 @@
     <item>
       <title>Zhiyue T. Hu</title>
       <link>/authors/zhiyue-t.-hu/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/zhiyue-t.-hu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jianqing Fan</title>
-      <link>/authors/jianqing-fan/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Sai Li*</title>
+      <link>/authors/sai-li/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/authors/jianqing-fan/</guid>
+      <guid>/authors/sai-li/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Xuening Zhu</title>
-      <link>/authors/xuening-zhu/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Tony T. Cai</title>
+      <link>/authors/tony-t.-cai/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/authors/xuening-zhu/</guid>
+      <guid>/authors/tony-t.-cai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rong Chen</title>
+      <link>/authors/rong-chen/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/rong-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruey S. Tsay</title>
+      <link>/authors/ruey-s.-tsay/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/ruey-s.-tsay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chencheng Cai</title>
       <link>/authors/chencheng-cai/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/chencheng-cai/</guid>
       <description></description>
@@ -96,16 +114,25 @@
     <item>
       <title>Dong Xia</title>
       <link>/authors/dong-xia/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/dong-xia/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Xuening Zhu</title>
+      <link>/authors/xuening-zhu/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/xuening-zhu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Marco Cuturi</title>
       <link>/authors/marco-cuturi/</link>
-      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/marco-cuturi/</guid>
       <description></description>
@@ -114,7 +141,7 @@
     <item>
       <title>Tianyi Lin</title>
       <link>/authors/tianyi-lin/</link>
-      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/tianyi-lin/</guid>
       <description></description>
@@ -123,18 +150,9 @@
     <item>
       <title>Zeyu Zheng</title>
       <link>/authors/zeyu-zheng/</link>
-      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/zeyu-zheng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ellen Li</title>
-      <link>/authors/ellen-li/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/ellen-li/</guid>
       <description></description>
     </item>
     
@@ -153,15 +171,6 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/qiwei-yao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rong Chen</title>
-      <link>/authors/rong-chen/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/rong-chen/</guid>
       <description></description>
     </item>
     
@@ -190,15 +199,6 @@ Previously, I spent one year as a postdoctoral research fellow at ORFE, Princeto
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/krishna-balasubramanian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruey S. Tsay</title>
-      <link>/authors/ruey-s.-tsay/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/ruey-s.-tsay/</guid>
       <description></description>
     </item>
     

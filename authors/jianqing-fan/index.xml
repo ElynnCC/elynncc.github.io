@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/jianqing-fan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Statistical Inference for High-Dimensional Matrix-Variate Factor Model</title>
+      <link>/publication/chen-2019-inference/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chen-2019-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Community Network Auto-Regression for High-Dimensional Time Series</title>
       <link>/publication/chen-2019-group-nar/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/chen-2019-group-nar/</guid>
       <description></description>
@@ -24,18 +33,9 @@
     <item>
       <title>Semiparametric Tensor Factor Analysis by Iteratively Projected SVD</title>
       <link>/publication/chen-2019-proj-tucker/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/chen-2019-proj-tucker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistical Inference for High-Dimensional Matrix-Variate Factor Model</title>
-      <link>/publication/chen-2019-inference/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/chen-2019-inference/</guid>
       <description></description>
     </item>
     

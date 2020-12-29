@@ -7,42 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>High-Dimensional Structured Bandits: Minimax Regret, Estimation and Inference</title>
-      <link>/publication/chen-2020-hdbandits/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/chen-2020-hdbandits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transferred $Q$ Learning</title>
-      <link>/publication/chen-2020-transq/</link>
-      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/chen-2020-transq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Heterogeneous Reinforcement Learning with Offline Data: Estimation and Inference</title>
       <link>/publication/chen-2020-heterorl/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/chen-2020-heterorl/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Statistical Inference for High-Dimensional Matrix-Variate Factor Model</title>
+      <link>/publication/chen-2019-inference/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chen-2019-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-Dimensional Structured Bandits: Minimax Regret, Estimation and Inference</title>
+      <link>/publication/chen-2020-hdbandits/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chen-2020-hdbandits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constrained Factor Models for High-Dimensional Matrix-Variate Time Series</title>
+      <link>/publication/chen-2019-constrained/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chen-2019-constrained/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Community Network Auto-Regression for High-Dimensional Time Series</title>
       <link>/publication/chen-2019-group-nar/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/chen-2019-group-nar/</guid>
       <description></description>
@@ -51,7 +60,7 @@
     <item>
       <title>Semiparametric Tensor Factor Analysis by Iteratively Projected SVD</title>
       <link>/publication/chen-2019-proj-tucker/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/chen-2019-proj-tucker/</guid>
       <description></description>
@@ -60,18 +69,18 @@
     <item>
       <title>On Projection Robust Optimal Transport: Sample Complexity and Model Misspecification</title>
       <link>/publication/lin-2020-prw/</link>
-      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/lin-2020-prw/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Statistical Inference for High-Dimensional Matrix-Variate Factor Model</title>
-      <link>/publication/chen-2019-inference/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      <title>Transferred $Q$ Learning</title>
+      <link>/publication/chen-2020-transq/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/chen-2019-inference/</guid>
+      <guid>/publication/chen-2020-transq/</guid>
       <description></description>
     </item>
     
@@ -90,15 +99,6 @@
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/chen-2017-multivariate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Constrained Factor Models for High-Dimensional Matrix-Variate Time Series</title>
-      <link>/publication/chen-2019-constrained/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/chen-2019-constrained/</guid>
       <description></description>
     </item>
     
