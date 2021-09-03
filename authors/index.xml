@@ -7,24 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ellen Li</title>
-      <link>/authors/ellen-li/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/ellen-li/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Elynn Chen</title>
       <link>/authors/elynn-chen/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>/authors/elynn-chen/</guid>
       <description></description>
@@ -33,7 +24,7 @@
     <item>
       <title>Jianqing Fan</title>
       <link>/authors/jianqing-fan/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>/authors/jianqing-fan/</guid>
       <description></description>
@@ -54,24 +45,6 @@
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/rui-song/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zhiyue T. Hu</title>
-      <link>/authors/zhiyue-t.-hu/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/zhiyue-t.-hu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sai Li*</title>
-      <link>/authors/sai-li/</link>
-      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/sai-li/</guid>
       <description></description>
     </item>
     
@@ -148,9 +121,18 @@
     </item>
     
     <item>
+      <title>Sai Li</title>
+      <link>/authors/sai-li/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/sai-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Xialu Liu</title>
       <link>/authors/xialu-liu/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/xialu-liu/</guid>
       <description></description>
@@ -180,8 +162,8 @@
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/admin/</guid>
-      <description>I am a NSF Postdoctoral fellow at EECS, University of California, Berkeley. I am fortunate to have Prof. Michael I. Jordan as my research advisor. My research interests generally lie in the broad area of theoretical statistics, machine learning and their applications in health care and economics. My research is supported in part by NSF Grants DMS-1803241.
-Previously, I spent one year as a postdoctoral research fellow at ORFE, Princeton University, under the guidance of Prof.</description>
+      <description>I am an Assistant Professor of Technology, Operations and Statistics at NYU Stern. I am generally interested in developing novel methodologies for data-driven decision-making and complex time series analysis, with applications in business, economics and health care. My work has been applied to international trade, corporate finance, clinical dynamic treatments and has been recognized by NSF Postdoc Award DMS-1803241.
+Before joining NYU Stern, I worked as a postdoctoral researcher, advised by Prof.</description>
     </item>
     
     <item>

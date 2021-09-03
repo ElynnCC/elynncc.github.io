@@ -34,31 +34,41 @@
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/ellen-li/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/elynn-chen/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chen-2020-heterorl/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/jianqing-fan/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/chen-2019-inference/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/chen-2020-heterorl/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,38 +78,8 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/rui-song/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chen-2019-inference/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/zhiyue-t.-hu/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chen-2020-hdbandits/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/sai-li/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -163,18 +143,28 @@
   </url>
   
   <url>
+    <loc>/authors/sai-li/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/chen-2020-transq/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/liu-2019-thresholdmfm/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/chen-2020-hdbandits/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/xialu-liu/</loc>
-    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
