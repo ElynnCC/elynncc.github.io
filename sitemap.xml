@@ -68,21 +68,6 @@
   </url>
   
   <url>
-    <loc>/publication/chen-2020-heterorl/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/michael-i.-jordan/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/rui-song/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/chen-2019-constrained/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
@@ -128,6 +113,11 @@
   </url>
   
   <url>
+    <loc>/authors/michael-i.-jordan/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/lin-2020-prw/</loc>
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
@@ -143,17 +133,17 @@
   </url>
   
   <url>
-    <loc>/authors/sai-li/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/chen-2020-transq/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/liu-2019-thresholdmfm/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/xialu-liu/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/chen-2020-heterorl/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,7 +153,17 @@
   </url>
   
   <url>
-    <loc>/authors/xialu-liu/</loc>
+    <loc>/authors/rui-song/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sai-li/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/chen-2020-transq/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   

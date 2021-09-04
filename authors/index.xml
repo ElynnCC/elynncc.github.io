@@ -31,24 +31,6 @@
     </item>
     
     <item>
-      <title>Michael I. Jordan</title>
-      <link>/authors/michael-i.-jordan/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/michael-i.-jordan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rui Song</title>
-      <link>/authors/rui-song/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/rui-song/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Rong Chen</title>
       <link>/authors/rong-chen/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
@@ -103,6 +85,15 @@
     </item>
     
     <item>
+      <title>Michael I. Jordan</title>
+      <link>/authors/michael-i.-jordan/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/michael-i.-jordan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tianyi Lin</title>
       <link>/authors/tianyi-lin/</link>
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
@@ -121,20 +112,29 @@
     </item>
     
     <item>
-      <title>Sai Li</title>
-      <link>/authors/sai-li/</link>
-      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      <title>Xialu Liu</title>
+      <link>/authors/xialu-liu/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/authors/sai-li/</guid>
+      <guid>/authors/xialu-liu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Xialu Liu</title>
-      <link>/authors/xialu-liu/</link>
+      <title>Rui Song</title>
+      <link>/authors/rui-song/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/authors/xialu-liu/</guid>
+      <guid>/authors/rui-song/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sai Li</title>
+      <link>/authors/sai-li/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/sai-li/</guid>
       <description></description>
     </item>
     

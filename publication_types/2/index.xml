@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Heterogeneous Reinforcement Learning with Offline Data: Estimation and Inference</title>
-      <link>/publication/chen-2020-heterorl/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/chen-2020-heterorl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Constrained Factor Models for High-Dimensional Matrix-Variate Time Series</title>
       <link>/publication/chen-2019-constrained/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
@@ -67,20 +58,20 @@
     </item>
     
     <item>
-      <title>Transferred $Q$ Learning</title>
-      <link>/publication/chen-2020-transq/</link>
-      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      <title>Estimation and Inference of High-Dimensional Matrix-Valued Threshold Factor Models</title>
+      <link>/publication/liu-2019-thresholdmfm/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/chen-2020-transq/</guid>
+      <guid>/publication/liu-2019-thresholdmfm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Estimation and Inference of High-Dimensional Matrix-Valued Threshold Factor Models</title>
-      <link>/publication/liu-2019-thresholdmfm/</link>
+      <title>Heterogeneous Reinforcement Learning with Offline Data: Estimation and Inference</title>
+      <link>/publication/chen-2020-heterorl/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/liu-2019-thresholdmfm/</guid>
+      <guid>/publication/chen-2020-heterorl/</guid>
       <description></description>
     </item>
     
@@ -90,6 +81,15 @@
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/chen-2020-hdbandits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transferred $Q$ Learning</title>
+      <link>/publication/chen-2020-transq/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chen-2020-transq/</guid>
       <description></description>
     </item>
     
