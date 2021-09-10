@@ -81,7 +81,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.014255bbb673ef00a66b186273cb66f7.css">
+  <link rel="stylesheet" href="/css/academic.min.eb002e8acbb32c1189bb82520dce6548.css">
 
   
 
@@ -603,7 +603,7 @@ $$</p>
 = \frac{e^{f_{y_i} + \log C}}{\sum_j e^{f_j + \log C}}
 $$</p>
 <p>We are free to choose the value of \(C\). This will not change any of the results, but we can use this value to improve the numerical stability of the computation. A common choice for \(C\) is to set \(\log C = -\max_j f_j \). This simply states that we should shift the values inside the vector \(f\) so that the highest value is zero. In code:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">456</span>, <span style="color:#ae81ff">789</span>]) <span style="color:#75715e"># example with 3 classes and each having large scores</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">456</span>, <span style="color:#ae81ff">789</span>]) <span style="color:#75715e"># example with 3 classes and each having large scores</span>
 p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp(f) <span style="color:#f92672">/</span> np<span style="color:#f92672">.</span>sum(np<span style="color:#f92672">.</span>exp(f)) <span style="color:#75715e"># Bad: Numeric problem, potential blowup</span>
 
 <span style="color:#75715e"># instead: first shift the values of f so that the highest number is 0:</span>
@@ -904,7 +904,7 @@ p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp
     
     
     
-    <script src="/js/academic.min.48a32d9c830bf89cbc5832982887d70d.js"></script>
+    <script src="/js/academic.min.ea4d3f9d470eca0ae38c4485e7942a0e.js"></script>
 
   </body>
 </html>
