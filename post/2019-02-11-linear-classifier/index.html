@@ -81,7 +81,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.eb002e8acbb32c1189bb82520dce6548.css">
+  <link rel="stylesheet" href="/css/academic.min.4484b930603f39932f9413fe989f5367.css">
 
   
 
@@ -227,9 +227,61 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/research/">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/publication/">
             
             <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/student/">
+            
+            <span>Students</span>
             
           </a>
         </li>
@@ -581,7 +633,7 @@ $$</p>
 <p><strong>Later.</strong>
 Leave the code and practical considerations of <a href="http://cs231n.github.io/linear-classify/#svm">SVM</a> to later study.</p>
 <h2 id="softmax-classifier">Softmax classifier</h2>
-<p>The <strong>Softmax classifier</strong> is a generalization of the binary Logistic Regression classifier to multiple classes. Unlike the SVM which treats the outputs $f(x_i,W)$ as (uncalibrated and possibly difficult to interpret) scores for each class, the Softmax classifier gives a slightly more intuitive output (normalized class probabilities) and also has a probabilistic interpretation explained later. In the Softmax classifier, the scores $f(x_i; W) =  W x_i$ are now interpreted as the unnormalized log probabilities for each class, that is $\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }$ is the probability that $y_i$ is the correct label. Thus, for the grounth truth to be choosen, we need to _maximize_ $\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }$. This can be achieved by using the **cross-entropy loss**</p>
+<p>The <strong>Softmax classifier</strong> is a generalization of the binary Logistic Regression classifier to multiple classes. Unlike the SVM which treats the outputs $f(x_i,W)$ as (uncalibrated and possibly difficult to interpret) scores for each class, the Softmax classifier gives a slightly more intuitive output (normalized class probabilities) and also has a probabilistic interpretation explained later. In the Softmax classifier, the scores $f(x_i; W) =  W x_i$ are now interpreted as the unnormalized log probabilities for each class, that is $\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }$ is the probability that $y_i$ is the correct label. Thus, for the grounth truth to be choosen, we need to <em>maximize</em> $\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }$. This can be achieved by using the <strong>cross-entropy loss</strong></p>
 <p>$$
 L_i = -\log\left(\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }\right) \hspace{0.5in} \text{or equivalently} \hspace{0.5in} L_i = -f_{y_i} + \log\sum_j e^{f_j}
 $$</p>
@@ -590,7 +642,7 @@ $$</p>
 <p>$$
 H(p,q) = - \sum_x p(x) \log q(x)
 $$</p>
-<p>The Softmax classifier is hence minimizing the cross-entropy between the estimated class probabilities ( \(q = e^{f_{y_i}}  / \sum_j e^{f_j} \) as seen above) and the &ldquo;true&rdquo; distribution, which in this interpretation is the distribution where all probability mass is on the correct class (i.e. \(p = [0, \ldots 1, \ldots, 0]\) contains a single 1 at the \(y_i\) -th position.). Moreover, since the cross-entropy can be written in terms of entropy and the Kullback-Leibler divergence as \(H(p,q) = H(p) + D_{KL}(p||q)\), and the entropy of the delta function \(p\) is zero, this is also equivalent to minimizing the KL divergence between the two distributions (a measure of distance). In other words, the cross-entropy objective *wants* the predicted distribution to have all of its mass on the correct answer.</p>
+<p>The Softmax classifier is hence minimizing the cross-entropy between the estimated class probabilities ( \(q = e^{f_{y_i}}  / \sum_j e^{f_j} \) as seen above) and the &ldquo;true&rdquo; distribution, which in this interpretation is the distribution where all probability mass is on the correct class (i.e. \(p = [0, \ldots 1, \ldots, 0]\) contains a single 1 at the \(y_i\) -th position.). Moreover, since the cross-entropy can be written in terms of entropy and the Kullback-Leibler divergence as \(H(p,q) = H(p) + D_{KL}(p||q)\), and the entropy of the delta function \(p\) is zero, this is also equivalent to minimizing the KL divergence between the two distributions (a measure of distance). In other words, the cross-entropy objective <em>wants</em> the predicted distribution to have all of its mass on the correct answer.</p>
 <p><strong>Probabilistic interpretation</strong>. Looking at the expression, we see that</p>
 <p>$$
 P(y_i \mid x_i; W) = \frac{e^{f_{y_i}}}{\sum_j e^{f_j} }
@@ -603,14 +655,13 @@ $$</p>
 = \frac{e^{f_{y_i} + \log C}}{\sum_j e^{f_j + \log C}}
 $$</p>
 <p>We are free to choose the value of \(C\). This will not change any of the results, but we can use this value to improve the numerical stability of the computation. A common choice for \(C\) is to set \(\log C = -\max_j f_j \). This simply states that we should shift the values inside the vector \(f\) so that the highest value is zero. In code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">456</span>, <span style="color:#ae81ff">789</span>]) <span style="color:#75715e"># example with 3 classes and each having large scores</span>
-p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp(f) <span style="color:#f92672">/</span> np<span style="color:#f92672">.</span>sum(np<span style="color:#f92672">.</span>exp(f)) <span style="color:#75715e"># Bad: Numeric problem, potential blowup</span>
-
-<span style="color:#75715e"># instead: first shift the values of f so that the highest number is 0:</span>
-f <span style="color:#f92672">-=</span> np<span style="color:#f92672">.</span>max(f) <span style="color:#75715e"># f becomes [-666, -333, 0]</span>
-p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp(f) <span style="color:#f92672">/</span> np<span style="color:#f92672">.</span>sum(np<span style="color:#f92672">.</span>exp(f)) <span style="color:#75715e"># safe to do, gives the correct answer</span>
-
-</code></pre></div><p><strong>Possibly confusing naming conventions</strong>. To be precise, the <em>SVM classifier</em> uses the <em>hinge loss</em>, or also sometimes called the <em>max-margin loss</em>. The <em>Softmax classifier</em> uses the <em>cross-entropy loss</em>. The Softmax classifier gets its name from the <em>softmax function</em>, which is used to squash the raw class scores into normalized positive values that sum to one, so that the cross-entropy loss can be applied. In particular, note that technically it doesn&rsquo;t make sense to talk about the &ldquo;softmax loss&rdquo;, since softmax is just the squashing function, but it is a relatively commonly used shorthand.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>f <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">123</span>, <span style="color:#ae81ff">456</span>, <span style="color:#ae81ff">789</span>]) <span style="color:#75715e"># example with 3 classes and each having large scores</span>
+</span></span><span style="display:flex;"><span>p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp(f) <span style="color:#f92672">/</span> np<span style="color:#f92672">.</span>sum(np<span style="color:#f92672">.</span>exp(f)) <span style="color:#75715e"># Bad: Numeric problem, potential blowup</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># instead: first shift the values of f so that the highest number is 0:</span>
+</span></span><span style="display:flex;"><span>f <span style="color:#f92672">-=</span> np<span style="color:#f92672">.</span>max(f) <span style="color:#75715e"># f becomes [-666, -333, 0]</span>
+</span></span><span style="display:flex;"><span>p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp(f) <span style="color:#f92672">/</span> np<span style="color:#f92672">.</span>sum(np<span style="color:#f92672">.</span>exp(f)) <span style="color:#75715e"># safe to do, gives the correct answer</span>
+</span></span></code></pre></div><p><strong>Possibly confusing naming conventions</strong>. To be precise, the <em>SVM classifier</em> uses the <em>hinge loss</em>, or also sometimes called the <em>max-margin loss</em>. The <em>Softmax classifier</em> uses the <em>cross-entropy loss</em>. The Softmax classifier gets its name from the <em>softmax function</em>, which is used to squash the raw class scores into normalized positive values that sum to one, so that the cross-entropy loss can be applied. In particular, note that technically it doesn&rsquo;t make sense to talk about the &ldquo;softmax loss&rdquo;, since softmax is just the squashing function, but it is a relatively commonly used shorthand.</p>
 <h2 id="svm-vs-softmax">SVM vs. Softmax</h2>
 <p>See <a href="http://cs231n.github.io/linear-classify/#svmvssoftmax">cs231: SVM vs. Softmax</a>.</p>
 <h1 id="references">References</h1>
@@ -663,7 +714,7 @@ p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp
     <div class="media-body">
       <h5 class="card-title" itemprop="name"><a href="/authors/admin/">Elynn Chen</a></h5>
       <h6 class="card-subtitle">Assistant Professor</h6>
-      <p class="card-text" itemprop="description">My research interests generally lie in the broad area of statistical learning theory, machine learning and Economics.</p>
+      <p class="card-text" itemprop="description">My research interests generally lie in the broad area of statistical learning theory, machine learning and economics.</p>
       <ul class="network-icon" aria-hidden="true">
         
           
@@ -710,7 +761,7 @@ p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp
             
           
           <li>
-            <a itemprop="sameAs" href="https://scholar.google.com" target="_blank" rel="noopener">
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=h5jI05UAAAAJ" target="_blank" rel="noopener">
               <i class="ai ai-google-scholar"></i>
             </a>
           </li>
@@ -755,7 +806,7 @@ p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp
   
 
   <p class="powered-by">
-    © 2021 Elynn Chen &middot; 
+    © 2023 Elynn Chen &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -904,7 +955,7 @@ p <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>exp
     
     
     
-    <script src="/js/academic.min.ea4d3f9d470eca0ae38c4485e7942a0e.js"></script>
+    <script src="/js/academic.min.b2cbf291e5319fb56ba61f8b4475018f.js"></script>
 
   </body>
 </html>

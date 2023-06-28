@@ -22,21 +22,50 @@
     </item>
     
     <item>
+      <title>Research</title>
+      <link>/research/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>/publication/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>/publication/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Courses</title>
-      <link>/courses/</link>
+      <title>Mentoring and Teaching</title>
+      <link>/student/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/courses/</guid>
-      <description></description>
+      <guid>/student/</guid>
+      <description>&lt;p&gt;I am currently looking for highly-motivated individuals to join my research group. We have several positions available, including research assistants, teaching assistants, interns, visiting students, and postdocs. If you are interested in joining our team, please take a moment to complete the application form to ensure that your application is properly processed. Additionally, kindly send an email to &lt;a href=&#34;mailto:chen.recruiting@gmail.com&#34;&gt;chen.recruiting@gmail.com&lt;/a&gt; with your CV and transcripts. We look forward to hearing from you and potentially welcoming you to our team!&lt;/p&gt;
+&lt;h2 id=&#34;current-students&#34;&gt;Current Students&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Wenbo Jing (3rd year Ph.D., co-advised with &lt;a href=&#34;https://www.stern.nyu.edu/faculty/bio/xi-chen&#34;&gt;Xi Chen&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Jiayu Li (1st year Ph.D.)&lt;/li&gt;
+&lt;li&gt;Mingyu Liu (1st year Ph.D.)&lt;/li&gt;
+&lt;li&gt;Tao Wen (Master student)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;alumni&#34;&gt;Alumni&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Yitian Xu (B.S. in Math and CS, 2023)&lt;/p&gt;
+&lt;p&gt;First position in the Master&amp;rsquo;s Program of Computer Science at University of Pennsylvania with scholarship.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Yuezhu Xu (M.S. in Statistics, 2023)&lt;/p&gt;
+&lt;p&gt;First position in the PhD Program of Computer Science at Purdue University with scholarship.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+</description>
     </item>
     
     <item>
@@ -45,15 +74,6 @@
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>/project/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/</guid>
       <description></description>
     </item>
     

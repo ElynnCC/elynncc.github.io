@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>/student/ub103/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>/courses/example/</loc>
+    <loc>/student/spur/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/example/example2/</loc>
+    <loc>/student/ub103/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/student/ub103/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -20,26 +23,74 @@
     <loc>/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <loc>/authors/admin/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/research/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/research/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tensor-learning/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/research/tensor-learning/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/elynn-chen/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/jianqing-fan/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <loc>/authors/michael-i.-jordan/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/chen-2020-heterorl/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/rui-song/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/chen-2019-group-nar/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/jianqing-fan/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rl/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/research/reinforcement-learning/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/xuening-zhu/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/chen-2019-inference/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/transfer-learning/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/research/transfer-learning/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/chen-2019-constrained/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
@@ -53,22 +104,13 @@
     <loc>/authors/chencheng-cai/</loc>
     <lastmod>2020-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2019-group-nar/</loc>
-    <lastmod>2020-11-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/authors/dong-xia/</loc>
     <lastmod>2020-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/chen-2019-proj-tucker/</loc>
     <lastmod>2020-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/xuening-zhu/</loc>
-    <lastmod>2020-11-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/authors/marco-cuturi/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/michael-i.-jordan/</loc>
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/lin-2020-prw/</loc>
@@ -86,13 +128,7 @@
     <loc>/authors/xialu-liu/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2020-heterorl/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/chen-2020-hdbandits/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/rui-song/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/sai-li/</loc>
@@ -110,22 +146,13 @@
     <loc>/authors/xin-yun/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/</loc>
+    <loc>/student/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/classification/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/concepts/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/ds/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/linear/</loc>
@@ -134,37 +161,10 @@
     <loc>/post/2019-02-11-linear-classifier/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/medical-reinforcement-learning/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/opt/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/post/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/research/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/rl/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/large-scale-statistics/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/stats/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/supervised-learning/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2019-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/tensor-variates/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/</loc>
