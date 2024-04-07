@@ -40,34 +40,6 @@
     </item>
     
     <item>
-      <title>Mentoring and Teaching</title>
-      <link>/student/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/student/</guid>
-      <description>&lt;p&gt;I am currently looking for highly-motivated individuals to join my research group. We have several positions available, including research assistants, teaching assistants, interns, visiting students, and postdocs. If you are interested in joining our team, please take a moment to complete the application form to ensure that your application is properly processed. Additionally, kindly send an email to &lt;a href=&#34;mailto:chen.recruiting@gmail.com&#34;&gt;chen.recruiting@gmail.com&lt;/a&gt; with your CV and transcripts. We look forward to hearing from you and potentially welcoming you to our team!&lt;/p&gt;
-&lt;h2 id=&#34;current-students&#34;&gt;Current Students&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Wenbo Jing (Ph.D. 2020-, co-advised with &lt;a href=&#34;https://www.stern.nyu.edu/faculty/bio/xi-chen&#34;&gt;Xi Chen&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Jiayu Li (Ph.D. 2023-)&lt;/li&gt;
-&lt;li&gt;Tao Wen (M.S. 2022-)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;alumni&#34;&gt;Alumni&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Yitian Xu (B.S. in Math and CS, 2023)&lt;/p&gt;
-&lt;p&gt;First position in the Master&amp;rsquo;s Program of Computer Science at University of Pennsylvania with scholarship.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Yuezhu Xu (M.S. in Statistics, 2023)&lt;/p&gt;
-&lt;p&gt;First position in the PhD Program of Computer Science at Purdue University with scholarship.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Posts</title>
       <link>/post/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
@@ -83,6 +55,102 @@
       
       <guid>/slides/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Mentoring and Teaching</title>
+      <link>/student/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/student/</guid>
+      <description>&lt;p&gt;I am currently looking for highly-motivated individuals to join my research group. We have several positions available, including research assistants, teaching assistants, interns, visiting students, and postdocs. If you are interested in joining our team, please take a moment to complete the application form to ensure that your application is properly processed. Additionally, kindly send an email to &lt;a href=&#34;mailto:chen.recruiting@gmail.com&#34;&gt;chen.recruiting@gmail.com&lt;/a&gt; with your CV and transcripts. We look forward to hearing from you and potentially welcoming you to our team!&lt;/p&gt;
+&lt;h2 id=&#34;current-students&#34;&gt;Current Students&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Wenbo Jing (Ph.D. 2020-, co-advised with &lt;a href=&#34;https://www.stern.nyu.edu/faculty/bio/xi-chen&#34;&gt;Xi Chen&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Focus: Tensor Learning, Transfer Learning, and Reinforcement Learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jiayu Li (Ph.D. 2023-)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Focus: Tensor Learning, Bandits, and Dynamic Pricing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Yujia Wu (M.S. in Data Science, 2023-)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Focus: Graph Neural Networks and Uncertainty Quantification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Albert Kong (M.S. in Data Science, 2024-)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Focus: Transformer for Time Series Analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;alumni&#34;&gt;Alumni&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/tao-wen/?locale=en_US&#34;&gt;Tao Wen&lt;/a&gt; (M.S. in Data Science, 2022-2024)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Focus: Graph Neural Networks, Transfer Learning, and Large Language Models.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2401.12007&#34;&gt;Tensor-view Topological Graph Neural Network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2401.12007&#34;&gt;Domain Adaptive Graph Classification via Label Propagation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;First position: Ph.D. in &lt;a href=&#34;https://web.cs.dartmouth.edu/&#34;&gt;Computer Science, Dartmouth College&lt;/a&gt; with scholarship. Offers received include Ph.D. in &lt;a href=&#34;https://www.cs.purdue.edu/&#34;&gt;Computer Science, Purdue University&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Yitian Xu (B.S. in Math and CS, 2023)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First position: Master&amp;rsquo;s in &lt;a href=&#34;https://www.cis.upenn.edu/&#34;&gt;Computer Science, University of Pennsylvania&lt;/a&gt; with scholarship.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Yuezhu Xu (M.S. in Statistics, 2023)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First position: Ph.D. in &lt;a href=&#34;https://www.cs.purdue.edu/&#34;&gt;Computer Science, Purdue University&lt;/a&gt; with scholarship.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/research-opportunities&#34;&gt;SPUR: Stern Program for Undergraduated Research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.stern.nyu.edu/programs-admissions/undergraduate&#34;&gt;UB STAT 103&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Core course in Statistics for undergraduate students major in Business.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

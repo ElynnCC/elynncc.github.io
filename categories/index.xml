@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>research</title>
+      <title>Research</title>
       <link>/categories/research/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>/categories/research/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>concepts</title>
+      <title>Concepts</title>
       <link>/categories/concepts/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>/categories/concepts/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

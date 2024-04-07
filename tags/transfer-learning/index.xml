@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transfer Learning</title>
       <link>/research/transfer-learning/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>/research/transfer-learning/</guid>
       <description>My research centers around the concept of transferring knowledge from one or more source tasks to enhance learning performance in a target task. In particular, I focus on the application of transfer learning in the domains of reinforcement learning and tensor learning. By leveraging knowledge gained from related tasks, my collaborators and I aim to improve the efficiency and effectiveness of learning processes.</description>
     </item>
-    
   </channel>
 </rss>

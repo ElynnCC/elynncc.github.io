@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tensor-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/tensor-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tensor Learning</title>
       <link>/research/tensor-learning/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>/research/tensor-learning/</guid>
       <description>Developing efficient algorithms for tensor data is my primary focus, as tensors offer a more natural and comprehensive representation of the multi-dimensional physical world. My aim is to enhance the understanding and analysis of complex data structures through innovative approaches.</description>
     </item>
-    
   </channel>
 </rss>

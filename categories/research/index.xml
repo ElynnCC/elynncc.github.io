@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>research on Boldness be my friend.</title>
+    <title>Research on Boldness be my friend.</title>
     <link>/categories/research/</link>
-    <description>Recent content in research on Boldness be my friend.</description>
+    <description>Recent content in Research on Boldness be my friend.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tensor Learning</title>
       <link>/research/tensor-learning/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>/research/tensor-learning/</guid>
       <description>Developing efficient algorithms for tensor data is my primary focus, as tensors offer a more natural and comprehensive representation of the multi-dimensional physical world. My aim is to enhance the understanding and analysis of complex data structures through innovative approaches.</description>
     </item>
-    
     <item>
       <title>RL for Social Decisions</title>
       <link>/research/reinforcement-learning/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>/research/reinforcement-learning/</guid>
       <description>My research focuses on the design and development of reinforcement learning (RL) algorithms tailored for social applications in various domains, including business, education, and healthcare. By leveraging RL techniques, my collaborators and I aim to address specific challenges and opportunities that arise in these social contexts. Our goal is to create novel algorithms that can effectively optimize decision-making processes, improve outcomes, and contribute to the advancement of social applications.</description>
     </item>
-    
     <item>
       <title>Transfer Learning</title>
       <link>/research/transfer-learning/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>/research/transfer-learning/</guid>
       <description>My research centers around the concept of transferring knowledge from one or more source tasks to enhance learning performance in a target task. In particular, I focus on the application of transfer learning in the domains of reinforcement learning and tensor learning. By leveraging knowledge gained from related tasks, my collaborators and I aim to improve the efficiency and effectiveness of learning processes.</description>
     </item>
-    
   </channel>
 </rss>
