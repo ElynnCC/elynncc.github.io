@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rui Song on Boldness be my friend.</title>
-    <link>/authors/rui-song/</link>
+    <link>//localhost:1313/authors/rui-song/</link>
     <description>Recent content in Rui Song on Boldness be my friend.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
     <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/authors/rui-song/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/authors/rui-song/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reinforcement Learning in Latent Heterogeneous Environments</title>
-      <link>/publication/chen-2020-heterorl/</link>
+      <link>//localhost:1313/publication/chen-2020-heterorl/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2020-heterorl/</guid>
+      <guid>//localhost:1313/publication/chen-2020-heterorl/</guid>
       <description></description>
     </item>
   </channel>

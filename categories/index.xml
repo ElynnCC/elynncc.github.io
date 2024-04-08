@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Boldness be my friend.</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Boldness be my friend.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
     <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>/categories/research/</link>
+      <link>//localhost:1313/categories/research/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/research/</guid>
+      <guid>//localhost:1313/categories/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Concepts</title>
-      <link>/categories/concepts/</link>
+      <link>//localhost:1313/categories/concepts/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/concepts/</guid>
+      <guid>//localhost:1313/categories/concepts/</guid>
       <description></description>
     </item>
   </channel>

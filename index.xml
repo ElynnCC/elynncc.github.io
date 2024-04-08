@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boldness be my friend.</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Boldness be my friend.</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/talk/</link>
+      <link>//localhost:1313/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>/talk/</guid>
+      <guid>//localhost:1313/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>//localhost:1313/publication/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>//localhost:1313/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>/research/</link>
+      <link>//localhost:1313/research/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/research/</guid>
+      <guid>//localhost:1313/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>//localhost:1313/post/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/</guid>
+      <guid>//localhost:1313/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/</link>
+      <link>//localhost:1313/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/</guid>
+      <guid>//localhost:1313/slides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mentoring and Teaching</title>
-      <link>/student/</link>
+      <link>//localhost:1313/student/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/student/</guid>
+      <guid>//localhost:1313/student/</guid>
       <description>&lt;p&gt;I am currently looking for highly-motivated individuals to join my research group. We have several positions available, including research assistants, teaching assistants, interns, visiting students, and postdocs. If you are interested in joining our team, please take a moment to complete the application form to ensure that your application is properly processed. Additionally, kindly send an email to &lt;a href=&#34;mailto:chen.recruiting@gmail.com&#34;&gt;chen.recruiting@gmail.com&lt;/a&gt; with your CV and transcripts. We look forward to hearing from you and potentially welcoming you to our team!&lt;/p&gt;
 &lt;h2 id=&#34;current-students&#34;&gt;Current Students&lt;/h2&gt;
 &lt;ul&gt;

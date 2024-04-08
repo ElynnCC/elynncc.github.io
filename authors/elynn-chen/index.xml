@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elynn Chen on Boldness be my friend.</title>
-    <link>/authors/elynn-chen/</link>
+    <link>//localhost:1313/authors/elynn-chen/</link>
     <description>Recent content in Elynn Chen on Boldness be my friend.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
     <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/authors/elynn-chen/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/authors/elynn-chen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data-Driven Knowledge Transfer in Batch $Q^*$ Learning</title>
-      <link>/publication/chen-2024-transfqi/</link>
+      <link>//localhost:1313/publication/chen-2024-transfqi/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2024-transfqi/</guid>
+      <guid>//localhost:1313/publication/chen-2024-transfqi/</guid>
       <description></description>
     </item>
     <item>
       <title>STEFA: Semi-parametric tensor factor analysis by iteratively projected singular value decomposition</title>
-      <link>/publication/chen-2019-proj-tucker/</link>
+      <link>//localhost:1313/publication/chen-2019-proj-tucker/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2019-proj-tucker/</guid>
+      <guid>//localhost:1313/publication/chen-2019-proj-tucker/</guid>
       <description></description>
     </item>
     <item>
       <title>Reinforcement Learning in Latent Heterogeneous Environments</title>
-      <link>/publication/chen-2020-heterorl/</link>
+      <link>//localhost:1313/publication/chen-2020-heterorl/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2020-heterorl/</guid>
+      <guid>//localhost:1313/publication/chen-2020-heterorl/</guid>
       <description></description>
     </item>
     <item>
       <title>Tensor-view Topological Graph Neural Network</title>
-      <link>/publication/chen-2024-ttgnn/</link>
+      <link>//localhost:1313/publication/chen-2024-ttgnn/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2024-ttgnn/</guid>
+      <guid>//localhost:1313/publication/chen-2024-ttgnn/</guid>
       <description></description>
     </item>
     <item>
       <title>Time-Varying Matrix Factor Models</title>
-      <link>/publication/chen-2024-tv-mfm/</link>
+      <link>//localhost:1313/publication/chen-2024-tv-mfm/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2024-tv-mfm/</guid>
+      <guid>//localhost:1313/publication/chen-2024-tv-mfm/</guid>
       <description></description>
     </item>
     <item>
       <title>Community Network Auto-Regression for High-Dimensional Time Series</title>
-      <link>/publication/chen-2019-group-nar/</link>
+      <link>//localhost:1313/publication/chen-2019-group-nar/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2019-group-nar/</guid>
+      <guid>//localhost:1313/publication/chen-2019-group-nar/</guid>
       <description></description>
     </item>
     <item>
       <title>Statistical Inference for High-Dimensional Matrix-Variate Factor Models</title>
-      <link>/publication/chen-2019-inference/</link>
+      <link>//localhost:1313/publication/chen-2019-inference/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2019-inference/</guid>
+      <guid>//localhost:1313/publication/chen-2019-inference/</guid>
       <description></description>
     </item>
     <item>
       <title>Constrained Factor Models for High-Dimensional Matrix-Variate Time Series</title>
-      <link>/publication/chen-2019-constrained/</link>
+      <link>//localhost:1313/publication/chen-2019-constrained/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2019-constrained/</guid>
+      <guid>//localhost:1313/publication/chen-2019-constrained/</guid>
       <description></description>
     </item>
     <item>
       <title>On Projection Robust Optimal Transport: Sample Complexity and Model Misspecification</title>
-      <link>/publication/lin-2020-prw/</link>
+      <link>//localhost:1313/publication/lin-2020-prw/</link>
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/lin-2020-prw/</guid>
+      <guid>//localhost:1313/publication/lin-2020-prw/</guid>
       <description></description>
     </item>
     <item>
       <title>Estimation and Inference of High-Dimensional Matrix-Valued Threshold Factor Models</title>
-      <link>/publication/liu-2019-thresholdmfm/</link>
+      <link>//localhost:1313/publication/liu-2019-thresholdmfm/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/liu-2019-thresholdmfm/</guid>
+      <guid>//localhost:1313/publication/liu-2019-thresholdmfm/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Dimensional Structured Bandits: Minimax Regret, Estimation and Inference</title>
-      <link>/publication/chen-2020-hdbandits/</link>
+      <link>//localhost:1313/publication/chen-2020-hdbandits/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2020-hdbandits/</guid>
+      <guid>//localhost:1313/publication/chen-2020-hdbandits/</guid>
       <description></description>
     </item>
     <item>
       <title>Transferred $Q$ Learning</title>
-      <link>/publication/chen-2020-transq/</link>
+      <link>//localhost:1313/publication/chen-2020-transq/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2020-transq/</guid>
+      <guid>//localhost:1313/publication/chen-2020-transq/</guid>
       <description></description>
     </item>
     <item>
       <title>Modeling Multivariate Spatial-Temporal Data with Latent Low-Dimensional Dynamics</title>
-      <link>/publication/chen-2017-multivariate/</link>
+      <link>//localhost:1313/publication/chen-2017-multivariate/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2017-multivariate/</guid>
+      <guid>//localhost:1313/publication/chen-2017-multivariate/</guid>
       <description></description>
     </item>
     <item>
       <title>Low-Rank Principal Eigenmatrix Analysis</title>
-      <link>/publication/bala-2019-eigenmatrix/</link>
+      <link>//localhost:1313/publication/bala-2019-eigenmatrix/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/bala-2019-eigenmatrix/</guid>
+      <guid>//localhost:1313/publication/bala-2019-eigenmatrix/</guid>
       <description></description>
     </item>
     <item>
       <title>Modeling Dynamic Transport Network with Matrix Factor Models: with an Application to International Trade Flow</title>
-      <link>/publication/chen-2019-modeling/</link>
+      <link>//localhost:1313/publication/chen-2019-modeling/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2019-modeling/</guid>
+      <guid>//localhost:1313/publication/chen-2019-modeling/</guid>
       <description></description>
     </item>
   </channel>

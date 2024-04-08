@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RL on Boldness be my friend.</title>
-    <link>/tags/rl/</link>
+    <link>//localhost:1313/tags/rl/</link>
     <description>Recent content in RL on Boldness be my friend.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
     <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/rl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/rl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RL for Societal Applications</title>
-      <link>/research/reinforcement-learning/</link>
+      <link>//localhost:1313/research/reinforcement-learning/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/research/reinforcement-learning/</guid>
+      <guid>//localhost:1313/research/reinforcement-learning/</guid>
       <description>My research focuses on the design and development of reinforcement learning (RL) algorithms tailored for social applications in various domains, including business, education, and healthcare. By leveraging RL techniques, my collaborators and I aim to address specific challenges and opportunities that arise in these social contexts. Our goal is to create novel algorithms that can effectively optimize decision-making processes, improve outcomes, and contribute to the advancement of social applications.</description>
     </item>
   </channel>

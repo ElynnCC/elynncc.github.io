@@ -2,200 +2,200 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/example/</loc>
+    <loc>//localhost:1313/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/</loc>
+    <loc>//localhost:1313/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/2/</loc>
+    <loc>//localhost:1313/publication_types/2/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
+    <loc>//localhost:1313/authors/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2024-transfqi/</loc>
+    <loc>//localhost:1313/publication/chen-2024-transfqi/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/elynn-chen/</loc>
+    <loc>//localhost:1313/authors/elynn-chen/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/</loc>
+    <loc>//localhost:1313/publication_types/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/</loc>
+    <loc>//localhost:1313/publication/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/wenbo-jing/</loc>
+    <loc>//localhost:1313/authors/wenbo-jing/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/xi-chen/</loc>
+    <loc>//localhost:1313/authors/xi-chen/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/chencheng-cai/</loc>
+    <loc>//localhost:1313/authors/chencheng-cai/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/dong-xia/</loc>
+    <loc>//localhost:1313/authors/dong-xia/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/jianqing-fan/</loc>
+    <loc>//localhost:1313/authors/jianqing-fan/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2019-proj-tucker/</loc>
+    <loc>//localhost:1313/publication/chen-2019-proj-tucker/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/bin-chen/</loc>
+    <loc>//localhost:1313/authors/bin-chen/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/michael-i.-jordan/</loc>
+    <loc>//localhost:1313/authors/michael-i.-jordan/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2020-heterorl/</loc>
+    <loc>//localhost:1313/publication/chen-2020-heterorl/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/rong-chen/</loc>
+    <loc>//localhost:1313/authors/rong-chen/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/rui-song/</loc>
+    <loc>//localhost:1313/authors/rui-song/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/stevenson-bolivar/</loc>
+    <loc>//localhost:1313/authors/stevenson-bolivar/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/tao-wen/</loc>
+    <loc>//localhost:1313/authors/tao-wen/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2024-ttgnn/</loc>
+    <loc>//localhost:1313/publication/chen-2024-ttgnn/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2024-tv-mfm/</loc>
+    <loc>//localhost:1313/publication/chen-2024-tv-mfm/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/yuzhou-chen/</loc>
+    <loc>//localhost:1313/authors/yuzhou-chen/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/admin/</loc>
+    <loc>//localhost:1313/authors/admin/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/research/</loc>
+    <loc>//localhost:1313/categories/research/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/research/</loc>
+    <loc>//localhost:1313/research/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tensor-learning/</loc>
+    <loc>//localhost:1313/tags/tensor-learning/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/research/tensor-learning/</loc>
+    <loc>//localhost:1313/research/tensor-learning/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2019-group-nar/</loc>
+    <loc>//localhost:1313/publication/chen-2019-group-nar/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/rl/</loc>
+    <loc>//localhost:1313/tags/rl/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/research/reinforcement-learning/</loc>
+    <loc>//localhost:1313/research/reinforcement-learning/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/xuening-zhu/</loc>
+    <loc>//localhost:1313/authors/xuening-zhu/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2019-inference/</loc>
+    <loc>//localhost:1313/publication/chen-2019-inference/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/transfer-learning/</loc>
+    <loc>//localhost:1313/tags/transfer-learning/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/research/transfer-learning/</loc>
+    <loc>//localhost:1313/research/transfer-learning/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2019-constrained/</loc>
+    <loc>//localhost:1313/publication/chen-2019-constrained/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/ruey-s.-tsay/</loc>
+    <loc>//localhost:1313/authors/ruey-s.-tsay/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/marco-cuturi/</loc>
+    <loc>//localhost:1313/authors/marco-cuturi/</loc>
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/lin-2020-prw/</loc>
+    <loc>//localhost:1313/publication/lin-2020-prw/</loc>
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/tianyi-lin/</loc>
+    <loc>//localhost:1313/authors/tianyi-lin/</loc>
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/zeyu-zheng/</loc>
+    <loc>//localhost:1313/authors/zeyu-zheng/</loc>
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/liu-2019-thresholdmfm/</loc>
+    <loc>//localhost:1313/publication/liu-2019-thresholdmfm/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/xialu-liu/</loc>
+    <loc>//localhost:1313/authors/xialu-liu/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2020-hdbandits/</loc>
+    <loc>//localhost:1313/publication/chen-2020-hdbandits/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/sai-li/</loc>
+    <loc>//localhost:1313/authors/sai-li/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2020-transq/</loc>
+    <loc>//localhost:1313/publication/chen-2020-transq/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2017-multivariate/</loc>
+    <loc>//localhost:1313/publication/chen-2017-multivariate/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/qiwei-yao/</loc>
+    <loc>//localhost:1313/authors/qiwei-yao/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/xin-yun/</loc>
+    <loc>//localhost:1313/authors/xin-yun/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/classification/</loc>
+    <loc>//localhost:1313/tags/classification/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/concepts/</loc>
+    <loc>//localhost:1313/categories/concepts/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/linear/</loc>
+    <loc>//localhost:1313/tags/linear/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/2019-02-11-linear-classifier/</loc>
+    <loc>//localhost:1313/post/2019-02-11-linear-classifier/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>//localhost:1313/post/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/supervised-learning/</loc>
+    <loc>//localhost:1313/tags/supervised-learning/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/slides/</loc>
+    <loc>//localhost:1313/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/slides/example/</loc>
+    <loc>//localhost:1313/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/krishna-balasubramanian/</loc>
+    <loc>//localhost:1313/authors/krishna-balasubramanian/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/bala-2019-eigenmatrix/</loc>
+    <loc>//localhost:1313/publication/bala-2019-eigenmatrix/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/chen-2019-modeling/</loc>
+    <loc>//localhost:1313/publication/chen-2019-modeling/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/authors/</loc>
+    <loc>//localhost:1313/authors/authors/</loc>
   </url><url>
-    <loc>/student/</loc>
+    <loc>//localhost:1313/student/</loc>
   </url>
 </urlset>

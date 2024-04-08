@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Boldness be my friend.</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Boldness be my friend.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
     <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tensor Learning</title>
-      <link>/tags/tensor-learning/</link>
+      <link>//localhost:1313/tags/tensor-learning/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/tensor-learning/</guid>
+      <guid>//localhost:1313/tags/tensor-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>RL</title>
-      <link>/tags/rl/</link>
+      <link>//localhost:1313/tags/rl/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/tags/rl/</guid>
+      <guid>//localhost:1313/tags/rl/</guid>
       <description></description>
     </item>
     <item>
       <title>Transfer Learning</title>
-      <link>/tags/transfer-learning/</link>
+      <link>//localhost:1313/tags/transfer-learning/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/tags/transfer-learning/</guid>
+      <guid>//localhost:1313/tags/transfer-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Classification</title>
-      <link>/tags/classification/</link>
+      <link>//localhost:1313/tags/classification/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/classification/</guid>
+      <guid>//localhost:1313/tags/classification/</guid>
       <description></description>
     </item>
     <item>
       <title>Linear</title>
-      <link>/tags/linear/</link>
+      <link>//localhost:1313/tags/linear/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/linear/</guid>
+      <guid>//localhost:1313/tags/linear/</guid>
       <description></description>
     </item>
     <item>
       <title>Supervised Learning</title>
-      <link>/tags/supervised-learning/</link>
+      <link>//localhost:1313/tags/supervised-learning/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/supervised-learning/</guid>
+      <guid>//localhost:1313/tags/supervised-learning/</guid>
       <description></description>
     </item>
   </channel>
