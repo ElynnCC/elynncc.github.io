@@ -7,13 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reinforcement Learning with Heterogeneous Data</title>
+      <title>Data-Driven Knowledge Transfer in Batch $Q^*$ Learning</title>
+      <link>/publication/chen-2024-transfqi/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/chen-2024-transfqi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>STEFA: Semi-parametric tensor factor analysis by iteratively projected singular value decomposition</title>
+      <link>/publication/chen-2019-proj-tucker/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/chen-2019-proj-tucker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinforcement Learning in Latent Heterogeneous Environments</title>
       <link>/publication/chen-2020-heterorl/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/publication/chen-2020-heterorl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tensor-view Topological Graph Neural Network</title>
+      <link>/publication/chen-2024-ttgnn/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/chen-2024-ttgnn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time-Varying Matrix Factor Models</title>
+      <link>/publication/chen-2024-tv-mfm/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/chen-2024-tv-mfm/</guid>
       <description></description>
     </item>
     <item>
@@ -35,13 +63,6 @@
       <link>/publication/chen-2019-constrained/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/publication/chen-2019-constrained/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Semiparametric Tensor Factor Analysis by Iteratively Projected SVD</title>
-      <link>/publication/chen-2019-proj-tucker/</link>
-      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/chen-2019-proj-tucker/</guid>
       <description></description>
     </item>
     <item>

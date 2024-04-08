@@ -7,41 +7,104 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Elynn Chen </copyright>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Admin</title>
-      <link>/authors/admin/</link>
-      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Elynn Chen</title>
       <link>/authors/elynn-chen/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       <guid>/authors/elynn-chen/</guid>
       <description></description>
     </item>
     <item>
-      <title>Michael I. Jordan</title>
-      <link>/authors/michael-i.-jordan/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>/authors/michael-i.-jordan/</guid>
+      <title>Wenbo Jing</title>
+      <link>/authors/wenbo-jing/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/wenbo-jing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Rui Song</title>
-      <link>/authors/rui-song/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>/authors/rui-song/</guid>
+      <title>Xi Chen</title>
+      <link>/authors/xi-chen/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/xi-chen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chencheng Cai</title>
+      <link>/authors/chencheng-cai/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/chencheng-cai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dong Xia</title>
+      <link>/authors/dong-xia/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/dong-xia/</guid>
       <description></description>
     </item>
     <item>
       <title>Jianqing Fan</title>
       <link>/authors/jianqing-fan/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
       <guid>/authors/jianqing-fan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bin Chen</title>
+      <link>/authors/bin-chen/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/bin-chen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Michael I. Jordan</title>
+      <link>/authors/michael-i.-jordan/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/michael-i.-jordan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rong Chen</title>
+      <link>/authors/rong-chen/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/rong-chen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rui Song</title>
+      <link>/authors/rui-song/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/rui-song/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stevenson Bolivar</title>
+      <link>/authors/stevenson-bolivar/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/stevenson-bolivar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tao Wen</title>
+      <link>/authors/tao-wen/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/tao-wen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yuzhou Chen</title>
+      <link>/authors/yuzhou-chen/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/yuzhou-chen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
       <description></description>
     </item>
     <item>
@@ -52,31 +115,10 @@
       <description></description>
     </item>
     <item>
-      <title>Rong Chen</title>
-      <link>/authors/rong-chen/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/rong-chen/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ruey S. Tsay</title>
       <link>/authors/ruey-s.-tsay/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/authors/ruey-s.-tsay/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chencheng Cai</title>
-      <link>/authors/chencheng-cai/</link>
-      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/chencheng-cai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dong Xia</title>
-      <link>/authors/dong-xia/</link>
-      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/dong-xia/</guid>
       <description></description>
     </item>
     <item>
