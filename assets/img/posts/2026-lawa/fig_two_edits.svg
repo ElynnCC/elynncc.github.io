@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8984"/>
+    </marker>
+    <marker id="big" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2a78d6"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="350" fill="#ffffff" rx="10"/>
+  <style>
+    .n{fill:#f4f3ef;stroke:#8a8984;stroke-width:1.4}
+    .nb{fill:#e3eefb;stroke:#2a78d6;stroke-width:2}
+    .ng{fill:#fde8e7;stroke:#e34948;stroke-width:1.4;stroke-dasharray:4 3}
+    .t{fill:#0b0b0b;text-anchor:middle;font-weight:600}
+    .h{fill:#0b0b0b;font-size:15;font-weight:700}
+    .note{fill:#52514e;font-size:12}
+    .e{stroke:#8a8984;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    .eb{stroke:#2a78d6;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    .big{stroke:#2a78d6;stroke-width:2.4;fill:none;marker-end:url(#big)}
+    .cut{stroke:#e34948;stroke-width:2.4}
+  </style>
+
+  <!-- panel 1: parallel rewiring -->
+  <text x="20" y="28" class="h">Edit 1: run side by side</text>
+  <text x="20" y="48" class="note">If B does not need A's output, stop making it wait.</text>
+  <g transform="translate(20,70)">
+    <circle cx="30" cy="60" r="20" class="n"/><text x="30" y="65" class="t">P</text>
+    <circle cx="110" cy="60" r="20" class="nb"/><text x="110" y="65" class="t">A</text>
+    <circle cx="190" cy="60" r="20" class="nb"/><text x="190" y="65" class="t">B</text>
+    <circle cx="270" cy="60" r="20" class="n"/><text x="270" y="65" class="t">Q</text>
+    <line x1="50" y1="60" x2="88" y2="60" class="e"/>
+    <line x1="130" y1="60" x2="168" y2="60" class="e"/>
+    <line x1="210" y1="60" x2="248" y2="60" class="e"/>
+    <line x1="140" y1="45" x2="160" y2="75" class="cut"/>
+    <line x1="140" y1="75" x2="160" y2="45" class="cut"/>
+
+    <line x1="300" y1="60" x2="340" y2="60" class="big"/>
+
+    <circle cx="380" cy="60" r="20" class="n"/><text x="380" y="65" class="t">P</text>
+    <circle cx="460" cy="20" r="20" class="nb"/><text x="460" y="25" class="t">A</text>
+    <circle cx="460" cy="100" r="20" class="nb"/><text x="460" y="105" class="t">B</text>
+    <circle cx="540" cy="60" r="20" class="n"/><text x="540" y="65" class="t">Q</text>
+    <path d="M396,48 C415,35 425,25 438,22" class="eb"/>
+    <path d="M396,72 C415,85 425,95 438,98" class="eb"/>
+    <path d="M482,22 C495,25 505,35 524,48" class="eb"/>
+    <path d="M482,98 C495,95 505,85 524,72" class="eb"/>
+    <text x="290" y="150" class="note" text-anchor="middle">Everything that fed A now also feeds B; everything B fed, A feeds too.</text>
+    <text x="290" y="167" class="note" text-anchor="middle">No one loses an input they had before.</text>
+  </g>
+
+  <!-- panel 2: node removal -->
+  <text x="20" y="272" class="h">Edit 2: drop a step that adds time but not value</text>
+  <g transform="translate(20,290)">
+    <circle cx="30" cy="35" r="20" class="n"/><text x="30" y="40" class="t">P</text>
+    <circle cx="110" cy="35" r="20" class="ng"/><text x="110" y="40" class="t">R</text>
+    <circle cx="190" cy="35" r="20" class="n"/><text x="190" y="40" class="t">Q</text>
+    <line x1="50" y1="35" x2="88" y2="35" class="e"/>
+    <line x1="130" y1="35" x2="168" y2="35" class="e"/>
+    <line x1="300" y1="35" x2="340" y2="35" class="big"/>
+    <circle cx="380" cy="35" r="20" class="n"/><text x="380" y="40" class="t">P</text>
+    <circle cx="500" cy="35" r="20" class="n"/><text x="500" y="40" class="t">Q</text>
+    <line x1="400" y1="35" x2="478" y2="35" class="eb"/>
+    <text x="560" y="30" class="note">P now hands straight to Q. A learned judge</text>
+    <text x="560" y="47" class="note">blocks the edit if R was actually pulling its weight.</text>
+  </g>
+</svg>
